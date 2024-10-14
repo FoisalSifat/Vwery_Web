@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    z-index: 1000;
+    
+
+   
+
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.logo{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo span{
+    color: #ffa343;
+}
+
+.navbar{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+
+}
+.navbar a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.navbar a:hover{
+    color: #ffa343;
+    font-size: 16px;
+ 
+}
+.h-right{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.h-right a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+.h-right a:hover{
+    color: #ffa343;
+    transform: translateY(-4px);
+}
+
+
+
+section{
+    padding: 70px 17% 60px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(./assets/imgbg1.jpg);
+    background-size: cover;
+    background-position:  bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.home-text h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #ffa343;
+}
+.home-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+.home-text p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffffab;
+    margin-bottom: 35px; 
+}
+.btn{
+    display: inline-block;
+    padding: 13px 40px;
+    background: #ffa343;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+.btn:hover{
+    transform: translateX(10px);
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
